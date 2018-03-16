@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBDC1F54205B9842007F06C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDC1F53205B9842007F06C3 /* AppDelegate.swift */; };
+		CBDC1F56205B9842007F06C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDC1F55205B9842007F06C3 /* ViewController.swift */; };
+		CBDC1F59205B9842007F06C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBDC1F57205B9842007F06C3 /* Main.storyboard */; };
+		CBDC1F5C205B9842007F06C3 /* iOSHanafuda.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CBDC1F5A205B9842007F06C3 /* iOSHanafuda.xcdatamodeld */; };
+		CBDC1F5E205B9842007F06C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBDC1F5D205B9842007F06C3 /* Assets.xcassets */; };
+		CBDC1F61205B9842007F06C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBDC1F5F205B9842007F06C3 /* LaunchScreen.storyboard */; };
+		CBDC1F6C205B9842007F06C3 /* iOSHanafudaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDC1F6B205B9842007F06C3 /* iOSHanafudaTests.swift */; };
+		CBDC1F77205B9842007F06C3 /* iOSHanafudaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDC1F76205B9842007F06C3 /* iOSHanafudaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBDC1F68205B9842007F06C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBDC1F48205B9842007F06C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBDC1F4F205B9842007F06C3;
+			remoteInfo = iOSHanafuda;
+		};
+		CBDC1F73205B9842007F06C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBDC1F48205B9842007F06C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBDC1F4F205B9842007F06C3;
+			remoteInfo = iOSHanafuda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBDC1F50205B9842007F06C3 /* iOSHanafuda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSHanafuda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBDC1F53205B9842007F06C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBDC1F55205B9842007F06C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBDC1F58205B9842007F06C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBDC1F5B205B9842007F06C3 /* iOSHanafuda.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOSHanafuda.xcdatamodel; sourceTree = "<group>"; };
+		CBDC1F5D205B9842007F06C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBDC1F60205B9842007F06C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBDC1F62205B9842007F06C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBDC1F67205B9842007F06C3 /* iOSHanafudaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSHanafudaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBDC1F6B205B9842007F06C3 /* iOSHanafudaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSHanafudaTests.swift; sourceTree = "<group>"; };
+		CBDC1F6D205B9842007F06C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBDC1F72205B9842007F06C3 /* iOSHanafudaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSHanafudaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBDC1F76205B9842007F06C3 /* iOSHanafudaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSHanafudaUITests.swift; sourceTree = "<group>"; };
+		CBDC1F78205B9842007F06C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBDC1F4D205B9842007F06C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBDC1F64205B9842007F06C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBDC1F6F205B9842007F06C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBDC1F47205B9842007F06C3 = {
+			isa = PBXGroup;
+			children = (
+				CBDC1F52205B9842007F06C3 /* iOSHanafuda */,
+				CBDC1F6A205B9842007F06C3 /* iOSHanafudaTests */,
+				CBDC1F75205B9842007F06C3 /* iOSHanafudaUITests */,
+				CBDC1F51205B9842007F06C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBDC1F51205B9842007F06C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBDC1F50205B9842007F06C3 /* iOSHanafuda.app */,
+				CBDC1F67205B9842007F06C3 /* iOSHanafudaTests.xctest */,
+				CBDC1F72205B9842007F06C3 /* iOSHanafudaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBDC1F52205B9842007F06C3 /* iOSHanafuda */ = {
+			isa = PBXGroup;
+			children = (
+				CBDC1F53205B9842007F06C3 /* AppDelegate.swift */,
+				CBDC1F55205B9842007F06C3 /* ViewController.swift */,
+				CBDC1F57205B9842007F06C3 /* Main.storyboard */,
+				CBDC1F5D205B9842007F06C3 /* Assets.xcassets */,
+				CBDC1F5F205B9842007F06C3 /* LaunchScreen.storyboard */,
+				CBDC1F62205B9842007F06C3 /* Info.plist */,
+				CBDC1F5A205B9842007F06C3 /* iOSHanafuda.xcdatamodeld */,
+			);
+			path = iOSHanafuda;
+			sourceTree = "<group>";
+		};
+		CBDC1F6A205B9842007F06C3 /* iOSHanafudaTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBDC1F6B205B9842007F06C3 /* iOSHanafudaTests.swift */,
+				CBDC1F6D205B9842007F06C3 /* Info.plist */,
+			);
+			path = iOSHanafudaTests;
+			sourceTree = "<group>";
+		};
+		CBDC1F75205B9842007F06C3 /* iOSHanafudaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBDC1F76205B9842007F06C3 /* iOSHanafudaUITests.swift */,
+				CBDC1F78205B9842007F06C3 /* Info.plist */,
+			);
+			path = iOSHanafudaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBDC1F4F205B9842007F06C3 /* iOSHanafuda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBDC1F7B205B9842007F06C3 /* Build configuration list for PBXNativeTarget "iOSHanafuda" */;
+			buildPhases = (
+				CBDC1F4C205B9842007F06C3 /* Sources */,
+				CBDC1F4D205B9842007F06C3 /* Frameworks */,
+				CBDC1F4E205B9842007F06C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSHanafuda;
+			productName = iOSHanafuda;
+			productReference = CBDC1F50205B9842007F06C3 /* iOSHanafuda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBDC1F66205B9842007F06C3 /* iOSHanafudaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBDC1F7E205B9842007F06C3 /* Build configuration list for PBXNativeTarget "iOSHanafudaTests" */;
+			buildPhases = (
+				CBDC1F63205B9842007F06C3 /* Sources */,
+				CBDC1F64205B9842007F06C3 /* Frameworks */,
+				CBDC1F65205B9842007F06C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBDC1F69205B9842007F06C3 /* PBXTargetDependency */,
+			);
+			name = iOSHanafudaTests;
+			productName = iOSHanafudaTests;
+			productReference = CBDC1F67205B9842007F06C3 /* iOSHanafudaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBDC1F71205B9842007F06C3 /* iOSHanafudaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBDC1F81205B9842007F06C3 /* Build configuration list for PBXNativeTarget "iOSHanafudaUITests" */;
+			buildPhases = (
+				CBDC1F6E205B9842007F06C3 /* Sources */,
+				CBDC1F6F205B9842007F06C3 /* Frameworks */,
+				CBDC1F70205B9842007F06C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBDC1F74205B9842007F06C3 /* PBXTargetDependency */,
+			);
+			name = iOSHanafudaUITests;
+			productName = iOSHanafudaUITests;
+			productReference = CBDC1F72205B9842007F06C3 /* iOSHanafudaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBDC1F48205B9842007F06C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Tengoku no Spoa";
+				TargetAttributes = {
+					CBDC1F4F205B9842007F06C3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CBDC1F66205B9842007F06C3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CBDC1F4F205B9842007F06C3;
+					};
+					CBDC1F71205B9842007F06C3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CBDC1F4F205B9842007F06C3;
+					};
+				};
+			};
+			buildConfigurationList = CBDC1F4B205B9842007F06C3 /* Build configuration list for PBXProject "iOSHanafuda" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBDC1F47205B9842007F06C3;
+			productRefGroup = CBDC1F51205B9842007F06C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBDC1F4F205B9842007F06C3 /* iOSHanafuda */,
+				CBDC1F66205B9842007F06C3 /* iOSHanafudaTests */,
+				CBDC1F71205B9842007F06C3 /* iOSHanafudaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBDC1F4E205B9842007F06C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBDC1F61205B9842007F06C3 /* LaunchScreen.storyboard in Resources */,
+				CBDC1F5E205B9842007F06C3 /* Assets.xcassets in Resources */,
+				CBDC1F59205B9842007F06C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBDC1F65205B9842007F06C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBDC1F70205B9842007F06C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBDC1F4C205B9842007F06C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBDC1F56205B9842007F06C3 /* ViewController.swift in Sources */,
+				CBDC1F5C205B9842007F06C3 /* iOSHanafuda.xcdatamodeld in Sources */,
+				CBDC1F54205B9842007F06C3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBDC1F63205B9842007F06C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBDC1F6C205B9842007F06C3 /* iOSHanafudaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBDC1F6E205B9842007F06C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBDC1F77205B9842007F06C3 /* iOSHanafudaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBDC1F69205B9842007F06C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBDC1F4F205B9842007F06C3 /* iOSHanafuda */;
+			targetProxy = CBDC1F68205B9842007F06C3 /* PBXContainerItemProxy */;
+		};
+		CBDC1F74205B9842007F06C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBDC1F4F205B9842007F06C3 /* iOSHanafuda */;
+			targetProxy = CBDC1F73205B9842007F06C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBDC1F57205B9842007F06C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBDC1F58205B9842007F06C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBDC1F5F205B9842007F06C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBDC1F60205B9842007F06C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBDC1F79205B9842007F06C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBDC1F7A205B9842007F06C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBDC1F7C205B9842007F06C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DLW9CMP935;
+				INFOPLIST_FILE = iOSHanafuda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCIDITD.iOSHanafuda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBDC1F7D205B9842007F06C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DLW9CMP935;
+				INFOPLIST_FILE = iOSHanafuda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCIDITD.iOSHanafuda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CBDC1F7F205B9842007F06C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DLW9CMP935;
+				INFOPLIST_FILE = iOSHanafudaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCIDITD.iOSHanafudaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSHanafuda.app/iOSHanafuda";
+			};
+			name = Debug;
+		};
+		CBDC1F80205B9842007F06C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DLW9CMP935;
+				INFOPLIST_FILE = iOSHanafudaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCIDITD.iOSHanafudaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSHanafuda.app/iOSHanafuda";
+			};
+			name = Release;
+		};
+		CBDC1F82205B9842007F06C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DLW9CMP935;
+				INFOPLIST_FILE = iOSHanafudaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCIDITD.iOSHanafudaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSHanafuda;
+			};
+			name = Debug;
+		};
+		CBDC1F83205B9842007F06C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DLW9CMP935;
+				INFOPLIST_FILE = iOSHanafudaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCIDITD.iOSHanafudaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSHanafuda;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBDC1F4B205B9842007F06C3 /* Build configuration list for PBXProject "iOSHanafuda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBDC1F79205B9842007F06C3 /* Debug */,
+				CBDC1F7A205B9842007F06C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBDC1F7B205B9842007F06C3 /* Build configuration list for PBXNativeTarget "iOSHanafuda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBDC1F7C205B9842007F06C3 /* Debug */,
+				CBDC1F7D205B9842007F06C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBDC1F7E205B9842007F06C3 /* Build configuration list for PBXNativeTarget "iOSHanafudaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBDC1F7F205B9842007F06C3 /* Debug */,
+				CBDC1F80205B9842007F06C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBDC1F81205B9842007F06C3 /* Build configuration list for PBXNativeTarget "iOSHanafudaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBDC1F82205B9842007F06C3 /* Debug */,
+				CBDC1F83205B9842007F06C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CBDC1F5A205B9842007F06C3 /* iOSHanafuda.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CBDC1F5B205B9842007F06C3 /* iOSHanafuda.xcdatamodel */,
+			);
+			currentVersion = CBDC1F5B205B9842007F06C3 /* iOSHanafuda.xcdatamodel */;
+			path = iOSHanafuda.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CBDC1F48205B9842007F06C3 /* Project object */;
+}
