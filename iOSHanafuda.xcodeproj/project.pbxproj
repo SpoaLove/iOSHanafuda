@@ -15,6 +15,11 @@
 		CBDC1F61205B9842007F06C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBDC1F5F205B9842007F06C3 /* LaunchScreen.storyboard */; };
 		CBDC1F6C205B9842007F06C3 /* iOSHanafudaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDC1F6B205B9842007F06C3 /* iOSHanafudaTests.swift */; };
 		CBDC1F77205B9842007F06C3 /* iOSHanafudaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDC1F76205B9842007F06C3 /* iOSHanafudaUITests.swift */; };
+		CBDC1F86205B9A65007F06C3 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDC1F85205B9A65007F06C3 /* Card.swift */; };
+		CBDC1F88205B9D8C007F06C3 /* Yamafuda.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDC1F87205B9D8C007F06C3 /* Yamafuda.swift */; };
+		CBDC1F8A205BEDD2007F06C3 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDC1F89205BEDD2007F06C3 /* Player.swift */; };
+		CBDC1F8C205BFC89007F06C3 /* You.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDC1F8B205BFC89007F06C3 /* You.swift */; };
+		CBDC1F8E205BFE59007F06C3 /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDC1F8D205BFE59007F06C3 /* Field.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		CBDC1F72205B9842007F06C3 /* iOSHanafudaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSHanafudaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBDC1F76205B9842007F06C3 /* iOSHanafudaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSHanafudaUITests.swift; sourceTree = "<group>"; };
 		CBDC1F78205B9842007F06C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBDC1F85205B9A65007F06C3 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		CBDC1F87205B9D8C007F06C3 /* Yamafuda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yamafuda.swift; sourceTree = "<group>"; };
+		CBDC1F89205BEDD2007F06C3 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		CBDC1F8B205BFC89007F06C3 /* You.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = You.swift; sourceTree = "<group>"; };
+		CBDC1F8D205BFE59007F06C3 /* Field.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,11 @@
 		CBDC1F52205B9842007F06C3 /* iOSHanafuda */ = {
 			isa = PBXGroup;
 			children = (
+				CBDC1F8D205BFE59007F06C3 /* Field.swift */,
+				CBDC1F85205B9A65007F06C3 /* Card.swift */,
+				CBDC1F89205BEDD2007F06C3 /* Player.swift */,
+				CBDC1F8B205BFC89007F06C3 /* You.swift */,
+				CBDC1F87205B9D8C007F06C3 /* Yamafuda.swift */,
 				CBDC1F53205B9842007F06C3 /* AppDelegate.swift */,
 				CBDC1F55205B9842007F06C3 /* ViewController.swift */,
 				CBDC1F57205B9842007F06C3 /* Main.storyboard */,
@@ -262,9 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBDC1F8C205BFC89007F06C3 /* You.swift in Sources */,
+				CBDC1F88205B9D8C007F06C3 /* Yamafuda.swift in Sources */,
+				CBDC1F8E205BFE59007F06C3 /* Field.swift in Sources */,
 				CBDC1F56205B9842007F06C3 /* ViewController.swift in Sources */,
 				CBDC1F5C205B9842007F06C3 /* iOSHanafuda.xcdatamodeld in Sources */,
 				CBDC1F54205B9842007F06C3 /* AppDelegate.swift in Sources */,
+				CBDC1F8A205BEDD2007F06C3 /* Player.swift in Sources */,
+				CBDC1F86205B9A65007F06C3 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

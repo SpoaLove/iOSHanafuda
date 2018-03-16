@@ -15,8 +15,17 @@ import Foundation
  * @property name a String indentifying the name of the card
  * @property yaku an array of interger identifying the points of the card
  */
-public struct Card {
+public struct Card:Hashable {
+    
+    public var hashValue: Int
+    
+    public static func ==(lhs: Card, rhs: Card) -> Bool {
+        return lhs.name == rhs.name
+    }
+    
     let month:Int
     let name:String
     let yaku:[Int]
+    // yaku [kous,hanamizake,tsukimizake,inoshikacho,akatan,aotan,tan,tane,kasu]
+    // for example a Tsuru from january will have a yaku of [1,0,0,0,0,0,0,0,0]
 }
